@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(28, 28, 53);
+}
+
+nav {
+    background-color: #bc0064;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 15px rgb(18, 18, 34);
+    border-radius: 10px;
+}
+
+div {
+    color: #FFF;
+}
+
+.ourTeam {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.list {
+    list-style-type: none;
+
+    border: 2px solid #bc0064;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #bc0064;
+}
+
+a:hover {
+    text-decoration: underline;
+}
