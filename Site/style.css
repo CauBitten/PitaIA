@@ -1,26 +1,35 @@
 body {
-    background-color: rgb(28, 28, 53);
+    background-color: #fafafa;
 }
 
 nav {
-    background-color: #bc0064;
+    background-color: #d10070;
     color: #fff;
     padding: 10px;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    box-shadow: 5px 5px 15px rgb(18, 18, 34);
+    box-shadow: 5px 5px 15px rgb(120, 120, 120);
     border-radius: 10px;
 }
 
 div {
-    color: #FFF;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #d10070;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .ourTeam {
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -33,18 +42,15 @@ div {
 .list {
     list-style-type: none;
 
-    border: 2px solid #bc0064;
+    border: 2.5px solid #d10070;
     border-radius: 10px;
     margin: 30px;
     margin-top: 0;
     padding: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: #bc0064;
-}
-
-a:hover {
-    text-decoration: underline;
+.aboutUs {
+    text-align: center;
+    margin: 30px;
+    border-bottom: 2.5px solid #d10070;
 }
