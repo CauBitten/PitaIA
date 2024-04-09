@@ -1,20 +1,39 @@
+:root {
+    --primary_color: #fff;
+    --secondary_color: #000;
+}
+
+.dark {
+    --primary_color: #020017;
+    --secondary_color: #fff;
+}
+
 body {
-    background-color: #fafafa;
+    background-color: var(--primary_color);
+    margin: 0;
 }
 
 nav {
     background-color: #d10070;
     color: #fff;
     padding: 10px;
-    display: flex;
-    justify-content: center;
     margin-bottom: 30px;
-    box-shadow: 5px 5px 15px rgb(120, 120, 120);
-    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    padding-left: 20px;
+}
+
+nav img {
+    cursor: pointer;
+    align-self: center;
+    padding-right: 20px;
 }
 
 div {
-    color: #000;
+    color: var(--secondary_color);
 }
 
 a {
@@ -24,6 +43,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#icon {
+    width: 20px;
+    height: 20px;
 }
 
 .ourTeam {
