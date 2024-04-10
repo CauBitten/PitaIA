@@ -4,8 +4,8 @@ icon.onclick = function() {
     document.body.classList.toggle("dark");
 
     if (document.body.classList.contains("dark")) {
-        icon.src = "Componentes/sun.png";
+        icon.src = "components/sun.png";
     } else {
-        icon.src = "Componentes/moon.png";
+        icon.src = "components/moon.png";
     }
 }
