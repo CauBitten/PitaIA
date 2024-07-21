@@ -1,76 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PitaIA</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/26174a21d8.js" crossorigin="anonymous"></script>
 </head>
-<header>
-
-    <nav>
-
-        <div class="left_content">
-            <img src="components/logob.png" id="icon">
-            <h1 class="PitaIA">PitaIA</h1>
-        </div>
-
-        <div class="right_content">
-            <a href="index.html" class="link_team">Team</a>
-        </div>
-
-    </nav>
-
-</header>
 <body>
-    <script src="js/script.js"></script>
 
-    <div class="container">
-
-        <div class="container_projetcs">
-            <h2>Nossos projetos:</h2>
-
+    <header>
+        <nav>
+            <h1 class="title">PitaIA</h1>
             
-        </div>
+            <ul class="list_nav">
+                <li class="hideOnMobile"><a href="#Projects">Projects</a></li>
+                <li class="hideOnMobile"><a href="#About" >About Us</a></li>
+                <li class="hideOnMobile"><a href="#Contacts" >Contacts</a></li>
 
-        <div class="container_img">
-            <img src="components/robo.png" class="robo">
-        </div>
+                <li class="menu-button" onclick="toggleSidebar()">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" fill="#000000">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg></a>
+                </li>
+            </ul>
+        </nav>  
+    </header>
 
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+        </ul>
     </div>
 
-    <h2 class="title_team">Conheça nosso time:</h2>
+    <main>
+        <section class="b1" id="Projects">
+            <h1 class="title-b2">Projects</h1>
+        </section>
 
-    <div class="container_team">
+        <section class="b2" id="About">
+            <h1 class="title-b1">About Us</h1>
+        </section>
 
-        <ul class="list">
-            <li>Cauã Bittencourt</li>
-            <li><a href="https://github.com/CauBitten" target="_blank" class="link_git"><img src="components/githubb.png" id="git_icon0"></a></li>
-        </ul>
-        <ul class="list">
-            <li>Lucas Maciel</li>
-            <li><a href="https://github.com/LucasRMacielP" target="_blank" class="link_git"><img src="components/githubb.png" id="git_icon1"></a></li>
-        </ul>
-        <ul class="list">
-            <li>João Guilherme</li>
-            <li><a href="https://github.com/JGMirand4" target="_blank" class="link_git"><img src="components/githubb.png" id="git_icon2"></a></li>
-        </ul>
-        <ul class="list">
-            <li>Higor Mateus</li>
-            <li><a href="https://github.com/higorm7" target="_blank" class="link_git"><img src="components/githubb.png" id="git_icon3"></a></li>
-        </ul>
-        <ul class="list">
-            <li>Anthony Guerra</li>
-            <li><a href="https://github.com/FonJava" target="_blank" class="link_git"><img src="components/githubb.png" id="git_icon4"></a></li>
-        </ul>
-        <ul class="list">
-            <li>Vithor Castro</li>
-            <li><a href="https://github.com/Vithor10" target="_blank" class="link_git"><img src="components/githubb.png" id="git_icon5"></a></li>
-        </ul>
-        
-    </div>
+        <section class="b3" id="Contacts">
+            <h1 class="title-b3">Contacts</h1>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PitaIA. Todos os direitos reservados.</p>
+    </footer>
+
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
