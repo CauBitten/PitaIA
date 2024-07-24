@@ -28,15 +28,16 @@ nav {
 }
 
 .title {
-    height: 30px;
     color: #e2e2e2;
 }
 
 .list_nav {
     display: flex;
     align-items: center;
-    height: 30px;
+
+    height: 3rem;
     gap: 3rem;
+    
     list-style-type: none;
     color: #e2e2e2;
 }
@@ -54,7 +55,7 @@ ul li a:hover {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 4rem;
 }
 
 main {
@@ -80,7 +81,6 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    padding-left: 15px;
     font-size: 2rem;
     color: #2D2D34;
 }
@@ -157,7 +157,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
 
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .list {
@@ -174,8 +174,8 @@ main {
     border-radius: 1rem;
     color: #fff;
 
-    height: 35rem;
-    width: 15rem;
+    height: 87vh;
+    width: 16vw;
 
     font-size: larger;
 }
@@ -190,8 +190,7 @@ footer {
     justify-content: center;
     align-items: center;
 
-    height: 30px;
-    padding-left: 15px;
+    height: 2rem;
 
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,35,80,1) 100%);
